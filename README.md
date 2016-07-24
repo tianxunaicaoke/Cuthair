@@ -1,1 +1,1 @@
-# Cuthair you  just  stupid  this thing is very simplethis is a first of my github
+# Cuthair this is an app for appointing haircut。
