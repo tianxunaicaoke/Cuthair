@@ -1,0 +1,114 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    android:layout_width="fill_parent"
+    android:layout_height="match_parent"
+    android:orientation="vertical"
+    android:background="@color/lightgray" 
+    
+   >
+
+    <TableLayout
+        android:layout_width="fill_parent"
+        android:layout_height="wrap_content"
+        android:layout_margin="0.5dip"
+        android:background="@color/lightgray"
+         android:layout_marginBottom="5dip">
+
+        <TableRow
+            android:id="@+id/tableRow5"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content" 
+             android:layout_margin="5dip">
+        </TableRow>
+
+        <TableRow
+            android:id="@+id/tableRow1"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content" >
+
+           <com.example.widget.fg_view1_button1 
+               android:id="@+id/fg_home_view1_bt1"
+                 android:layout_width="wrap_content"
+                  android:layout_height="wrap_content" 
+                  android:layout_margin="0.5dip"
+                  android:layout_weight="1"
+                  android:background="@color/white"
+             />
+               
+            
+               <com.example.widget.fg_view1_button1 
+               android:id="@+id/fg_home_view1_bt2"
+                 android:layout_width="wrap_content"
+                  android:layout_height="wrap_content" 
+                  android:layout_margin="0.5dip"
+                  android:layout_weight="1"
+                  android:background="@color/white"
+             /> 
+              
+         
+
+           
+
+        </TableRow>
+
+        <TableRow
+            android:id="@+id/tableRow2"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content" >
+               
+            <com.example.widget.fg_view1_button1 
+               android:id="@+id/fg_home_view1_bt3"
+                 android:layout_width="wrap_content"
+                  android:layout_height="wrap_content" 
+                  android:layout_weight="1"
+                  android:layout_margin="0.5dip"
+                  android:background="@color/white"
+             />
+
+               <com.example.widget.fg_view1_button1 
+               android:id="@+id/fg_home_view1_bt4"
+                 android:layout_width="wrap_content"
+                  android:layout_height="wrap_content" 
+                  android:layout_weight="1"
+                  android:layout_margin="0.5dip"
+                  android:background="@color/white"
+             /> 
+            
+        </TableRow>
+
+        <TableRow
+            android:id="@+id/tableRow3"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content" >
+
+            <com.example.widget.fg_view1_button1 
+               android:id="@+id/fg_home_view1_bt5"
+                 android:layout_width="wrap_content"
+                  android:layout_height="wrap_content" 
+                  android:layout_weight="1"
+                  android:layout_margin="0.5dip"
+                  android:background="@color/white"
+             />
+
+               <com.example.widget.fg_view1_button1 
+               android:id="@+id/fg_home_view1_bt6"
+                 android:layout_width="wrap_content"
+                  android:layout_height="wrap_content" 
+                  android:layout_weight="1"
+                  android:layout_margin="0.5dip"
+                  android:background="@color/white"
+             /> 
+
+        </TableRow>
+
+        <TableRow
+            android:id="@+id/tableRow4"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:layout_marginBottom="20dip" >
+               
+        </TableRow>
+
+    </TableLayout>
+
+</LinearLayout>

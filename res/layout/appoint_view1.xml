@@ -1,0 +1,41 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:orientation="vertical" >
+    
+ <LinearLayout
+        android:id="@+id/appoint_view1"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:background="@color/lightgray" >
+
+        <Button
+            android:id="@+id/appoint_barberfirst"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:background="@color/white"
+            android:layout_weight="1"
+            android:layout_margin="0.5dip"
+            android:text="按照发型师预约" />
+
+        <Button
+            android:id="@+id/appoint_hairfirst"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:background="@color/white"
+            android:layout_weight="1"
+            android:layout_margin="0.5dip"
+            android:text="按照发型预约" />
+
+        <Button
+            android:id="@+id/appoint_timefirst"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:background="@color/white"
+            android:layout_weight="1"
+            android:layout_margin="0.5dip"
+            android:text="按照时间预约" />
+
+    </LinearLayout>
+</LinearLayout>

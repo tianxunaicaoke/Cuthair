@@ -1,0 +1,72 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:orientation="vertical" >
+
+    <GridLayout
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:columnCount="1" >
+
+        <TextView
+            android:id="@+id/home_appoint_name"
+            android:layout_width="match_parent"
+            android:layout_column="0"
+            android:layout_gravity="left|top"
+            android:layout_row="0"
+            android:background="@color/skyblue"
+            android:text="Large Text"
+            android:textAppearance="?android:attr/textAppearanceLarge" />
+
+        <ImageView
+            android:id="@+id/home_appoint_barber"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:layout_column="0"
+            android:layout_gravity="left|fill_vertical"
+            android:layout_row="1"
+            android:src="@drawable/ic_launcher" />
+
+        <ImageView
+            android:id="@+id/home_appoint_hairestyle"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:layout_column="0"
+            android:layout_gravity="center_horizontal|top"
+            android:layout_row="1"
+            android:src="@drawable/ic_launcher" />
+
+        <TextView
+            android:id="@+id/home_appoint_price"
+            android:layout_column="0"
+            android:layout_gravity="right|center_vertical"
+            android:layout_row="1"
+            android:text="Medium Text"
+            android:textAppearance="?android:attr/textAppearanceMedium" />
+
+        <TextView
+            android:id="@+id/home_appoint_piao"
+            android:layout_column="0"
+            android:layout_gravity="right|top"
+            android:layout_row="3"
+            android:text="评价"
+            android:textAppearance="?android:attr/textAppearanceLarge" />
+
+        <TextView
+            android:id="@+id/home_appoint_comment"
+            android:layout_column="0"
+            android:layout_gravity="left|top"
+            android:layout_row="3"
+            android:text="Medium Text"
+            android:textAppearance="?android:attr/textAppearanceMedium" />
+
+        <TextView
+            android:id="@+id/home_appoint_time"
+            android:layout_column="0"
+            android:layout_gravity="right|top"
+            android:layout_row="4"
+            android:text="TextView" />
+    </GridLayout>
+
+</LinearLayout>
